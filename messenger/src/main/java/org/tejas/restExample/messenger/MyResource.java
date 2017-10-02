@@ -18,7 +18,7 @@ public class MyResource {
      * @return String that will be returned as a text/plain response.
      */
     @GET
-    @Produces(MediaType.TEXT_PLAIN)
+    @Produces(MediaType.TEXT_HTML)
     public String getIt() {
         return "<html> <b> Got it! </html> ";
     }
